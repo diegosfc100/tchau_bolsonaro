@@ -12,7 +12,7 @@ const c = setInterval(() => {
     const sec = Math.floor(totalSeconds) % 60;
 
     const countDown = document.getElementById("counter");
-    countDown.textContent = `${days}dias ${hrs}hrs : ${format(min)}min : ${format(sec)}s` */
+    countDown.textContent = `${days}dias ${hrs}hrs : ${format(min)}min : ${format(sec)}s`;
 
 }, 1000)
 

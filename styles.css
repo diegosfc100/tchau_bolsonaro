@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* html {
+  font-size: 10px;
+} */
+
+body {
+    font-family: serif;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 80px;
+    background:#D8E3E7;
+}
+
+h1{
+    font-size: 4em;
+    color:Black;   
+    font-weight: normal; 
+    font-family: 'Playfair Display', serif;
+}
+
+#counter{
+    background-color:rgba(0,0,0,.1);
+    padding: 20px;
+    font-size: 5em;
+    color:#FF005C;
+    border-radius: 10px;
+}    
+
+.bozo{
+    position:absolute;
+    right:0;
+    bottom: 0;
+}

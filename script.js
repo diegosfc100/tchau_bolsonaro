@@ -11,11 +11,11 @@ const c = setInterval(() => {
     const min = Math.floor(totalSeconds / 60) % 60;
     const sec = Math.floor(totalSeconds) % 60;
 
-    /* const countDown = document.getElementById("counter");
+    const countDown = document.getElementById("counter");
     countDown.textContent = `${days}dias ${hrs}hrs : ${format(min)}min : ${format(sec)}s` */
 
 }, 1000)
 
-/* function format(t){
+function format(t){
     return t < 10 ? `0${t}` : t;
-} */
+}
